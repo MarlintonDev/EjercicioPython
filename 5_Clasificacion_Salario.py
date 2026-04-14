@@ -1,4 +1,4 @@
-Salario = float(input("Ingrese su salario: "))
+Salario = float(input("Ingrese su salario: $ "))
 
 if Salario > 8000000:
     print("El salario ingresado esta categorizado como ALTO")
