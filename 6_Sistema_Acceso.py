@@ -27,3 +27,4 @@ while intentos_fallidos < limite_bloqueo:
 # Verificamos si salió por bloqueo o por éxito
 if intentos_fallidos == limite_bloqueo:
     print("\n[ALERTA] Sistema bloqueado por 3 fallos de contraseña.")
+    print("Por favor, contacte al administrador para restablecer el acceso.")
